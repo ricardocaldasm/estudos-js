@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 1.5em arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é seu nome?')
+        document.write(`Olá ${nome}. Seu nome tem ${nome.length} letras.<br>`) //document.write escreve no site
+        document.write(`Seu nome em maiúsculos fica ${nome.toUpperCase()}.<br>`)
+        document.write(`Seu nome em minúsculas é ${nome.toLowerCase()}.<br>`)
+        //n1.toFixes(2) escreve número com 2 casas decimais
+        //n1.toFixes(2).replace('.' , ',') troca 2.5 para 2,5
+        //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    </script>
+</body>
+</html>
